@@ -52,3 +52,8 @@
 
 MeetAChef have an exposed GraphQL API with this route: ```https://meetachef.com/api/graphql```
 So, I just get the body that the web site send to this API and replicate on my API.
+
+## API Documentation Demo
+
+![alt text](./Swagger.png)
+![alt text](./Swagger_Result.png)
