@@ -8,7 +8,7 @@ namespace CheffyExtractData.Domain.Entities
         public ChefCity City { get; set; }
         public ChefCountry Country { get; set; }
         public string Description { get; set; }
-        public string Featured { get; set; }
+        public bool Featured { get; set; }
         public string LastSeenInWords { get; set; }
         public string Name { get; set; }
         public string OwnerName { get; set; }

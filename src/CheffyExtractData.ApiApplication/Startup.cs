@@ -50,7 +50,7 @@ namespace CheffyExtractData.ApiApplication
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ginder API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Extract Chef Data API", Version = "v1" });
             });
 
             services.AddScoped<IExtractDataService, ExtractDataService>();

@@ -1,5 +1,6 @@
 ﻿using CheffyExtractData.Domain.Commands;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.Swagger.Annotations;
 
 namespace CheffyExtractData.ApiApplication.Controllers
 {
